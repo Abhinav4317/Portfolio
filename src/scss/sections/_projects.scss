@@ -38,7 +38,7 @@
         &-container {
           position: relative;
           width: 600px;
-          height: 300px;
+          height: 350px;
         }
         position: absolute;
         top: 0;
@@ -58,7 +58,7 @@
           position: absolute;
           width: 100%;
           height: 100%;
-          opacity: 30%;
+          opacity: 15%;
           background-color: #33cc66;
         }
         img {
@@ -104,7 +104,7 @@
           list-style-type: none;
           gap: 1rem;
           flex-wrap: wrap;
-          width:70%;
+          width: 70%;
           &-item {
             color: var(--light-slate);
             font-family: var(--raleway);
@@ -174,6 +174,22 @@
             }
           }
         }
+        &-image{
+          &-container {
+            width: 500px;
+            height: 300px;
+            opacity: 30%;
+          }
+          &-overlay {
+            transition: 0.3s ease-in-out;
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0%;
+            background-color: #33cc66;
+          }
+        }
         &:nth-of-type(even) {
           .project-image {
             left: 0;
@@ -190,7 +206,17 @@
         &-image {
           &-container {
             width: 500px;
-            height: 300px;
+            height: 400px;
+            opacity: 20%;
+          }
+          &-overlay {
+            transition: 0.3s ease-in-out;
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0%;
+            background-color: #33cc66;
           }
         }
         .project-info {
@@ -206,7 +232,17 @@
         &-image {
           &-container {
             width: 350px;
-            height: 400px;
+            height: 450px;
+            opacity: 20%;
+          }
+          &-overlay {
+            transition: 0.3s ease-in-out;
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0%;
+            background-color: #33cc66;
           }
         }
         .project-info {

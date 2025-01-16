@@ -11,7 +11,7 @@ function Projects() {
       projectName: "Memoria",
       projectLink: "https://memoria-journal.vercel.app/",
       projectDescription:
-        "Memoria is a journaling and mood analysis app that offers mood-based image integration from Pixabay, real-time mood analysis, and personalized disposition summaries for users. It uses NeonDB and Prisma for secure and fast database operations and incorporates Clerk for seamless user authentication with JWT for session management. The app provides a responsive design with mood charts and insights to help users reflect on their emotional well-being.",
+        "Memoria is a journaling and mood analysis app that integrates mood-based images from Pixabay, real-time mood analysis, and personalized disposition summaries. It uses NeonDB and Prisma for secure database operations, Clerk for authentication, and JWT for session management. The app features mood charts and insights to support emotional well-being.",
       projectTech: [
         "Next.js",
         "Clerk",
@@ -32,7 +32,7 @@ function Projects() {
       projectName: "BookHaven",
       projectLink: "https://book-haven-gilt.vercel.app/",
       projectDescription:
-        "BookHaven is an online bookstore and blogging app built with the MERN stack and Vite, featuring a fast, high-performance experience. It integrates Cloudinary for image optimization and Stripe for secure transactions. The app offers advanced search and filter functionalities, buying and selling both hard and digital copies, and publishing informative blogs. Authentication is handled with JWT and bcryptjs for fast login response times.",
+        "BookHaven is an online bookstore and blogging app built with the MERN stack and Vite. It features image optimization via Cloudinary, secure transactions through Stripe, and advanced search and filter functionalities. The app supports buying and selling hard and digital copies, publishing blogs, and uses JWT and bcryptjs for fast login.",
       projectTech: [
         "ReactJS",
         "NodeJS",
@@ -54,17 +54,15 @@ function Projects() {
       projectName: "Yojana Sahayak",
       projectLink: "https://github.com/Abhinav4317/P.S.1760-SIH",
       projectDescription:
-        "AI-Driven Financial Scheme Recommender is a web application developed for the Smart India Hackathon 2024, where it won national recognition by outperforming 1000+ teams. The app integrates personalized financial scheme recommendations, regional insights, and loan viability predictions for farmers. It also includes hierarchical administrative dashboards for officers at national, state, and district levels to manage scheme targets across 1,500+ districts. The solution leverages AI/ML models for clustering, time-series analysis, and communication to address challenges for India Post.",
+        "The AI-driven financial scheme recommender, developed for Smart India Hackathon 2024, won national recognition. It offers personalized recommendations, regional insights, and loan predictions for farmers, with dashboards for officers to manage scheme targets across 1,500+ districts, using AI/ML models.",
       projectTech: [
         "ReactJS",
         "NodeJS",
         "ExpressJS",
         "MongoDB",
-        "Express-Rate-Limiter",
         "TensorFlow",
         "Matplotlib",
         "Uvicorn",
-        "Python",
       ],
       projectExternalLinks: {
         github: "https://github.com/Abhinav4317/P.S.1760-SIH",
