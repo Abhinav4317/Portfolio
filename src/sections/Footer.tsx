@@ -30,7 +30,7 @@ function Footer() {
         className="footer-link"
       >
         <span className="footer-info">
-          Built by Abhinav Gangwar,with due inspiration from Brittany Chiang's
+          Built by Abhinav Gangwar,with due inspiration from Brittany Chiang{"'"}s
           portfolio website.
         </span>
         {githubInfo && (
