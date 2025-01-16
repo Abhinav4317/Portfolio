@@ -72,7 +72,7 @@ function Hero() {
       >
         <Button
           text="Check out my Resume"
-          link="https://portfolio-beta-ecru-59.vercel.app/Abhinav_Resume_Latest.pdf"
+          link="https://portfolio-beta-ecru-59.vercel.app/Abhinav_Resume.pdf"
         />
       </motion.div>
     </div>
